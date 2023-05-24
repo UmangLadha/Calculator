@@ -1,9 +1,71 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-	text-align: center;
+:root {
+    --primary-color: #313131;
+    --secondary-color: #f69906;
+    --third-color: #9f9f9f;
+    --fourth-color: #f6f6f6;
+    --fifth-color: #000000;
+}
+
+body {
+    background-color: var(--fifth-color);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    /* width: 80%;
+	margin: auto;
+	background-color: #00ffff;
+	text-align: center;*/
+}
+
+.heading {
+    margin: 5px auto;
+    color: var(--fourth-color);
+    padding: 30px 0;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table-part {
+    width: 80%;
+    margin: 0 auto 4rem;
+    padding: 10px;
+    background-color: #00ffff;
+    text-align: center;
+    border-radius: 3rem;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--fifth-color);
+    outline: 0;
+    text-align: right;
+    color: var(--fourth-color);
+    font-size: 40px;
+    font-weight: 300;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+button {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--fourth-color);
+    margin: 2px;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
 }
