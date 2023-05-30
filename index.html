@@ -5,50 +5,53 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="Style.css">
 	<title>Calculator</title>
+	<link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
 	<div class="heading">
 		<h1>Calculator</h1>
 	</div>
-	<div class="table-part">
-		<input type="text" id="input1" name="input1" value="0" />
-		<table class="content">
-			<tbody class="calc">
+		<div class="table-part">
+			<input type="text" id="input1" name="input1" value="0" />
+			<table class="content">
 				<tr>
-					<td><button>AC</button></td>
-					<td><button>+/-</button></td>
-					<td><button>%</button></td>
-					<td><button>÷</button></td>
+					<td><button class="action">AC</button></td>
+					<td><button class="action">+/-</button></td>
+					<td><button class="action">%</button></td>
+					<td><button class="operator">÷</button></td>
 				</tr>
 				<tr>
 					<td><button>7</button></td>
 					<td><button>8</button></td>
 					<td><button>9</button></td>
-					<td><button>x</button></td>
+					<td><button class="operator">×</button></td>
 				</tr>
 				<tr>
 					<td><button>4</button></td>
 					<td><button>5</button></td>
 					<td><button>6</button></td>
-					<td><button>-</button></td>
+					<td><button class="operator">−</button></td>
 				</tr>
 				<tr>
 					<td><button>1</button></td>
 					<td><button>2</button></td>
 					<td><button>3</button></td>
-					<td><button>+</button></td>
+					<td><button class="operator">+</button></td>
 				</tr>
 				<tr>
-					<td><button>0</button></td>
+					<td colspan="2"><button style="text-align: left; padding-left: 2rem; width: 220px;">0</button></td>
 					<td><button>.</button></td>
-					<td><button>=</button></td>
+					<td><button class="operator">=</button></td>
 				</tr>
-			</tbody>
-		</table>
-	</div>
-</body>
+			</table>
+		</div>
 
+	<footer>
+		<span>Made by
+			<a href="https://github.com/UmangLadha/Calculator" target="_blank" style="color:rgb(26, 127, 205); text-decoration: none; padding-bottom:1rem;"> Umang Ladha</a>
+		</span>
+	</footer>
+</body>
 </html>
