@@ -24,9 +24,9 @@ body {
 
 .heading {
     margin: 1.6rem auto;
-    color: var(--fourth-color);
+    color: var(--secondary-color);
     padding: 1rem 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -85,5 +85,5 @@ button {
 }
 	
 footer{
-	color: white;
+	color:var(--third-color);
 }
