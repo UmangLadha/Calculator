@@ -13,46 +13,49 @@
 	<div class="heading">
 		<h1>Calculator</h1>
 	</div>
-		<div class="table-part">
-			<input type="text" id="output" value="0"/>
-			<table class="content">
-				<tr>
-					<td><button class="action">AC</button></td>
-					<td><button class="action">DEL</button></td>
-					<td><button class="action">%</button></td>
-					<td><button class="operator">÷</button></td>
-				</tr>
-				<tr>
-					<td><button>7</button></td>
-					<td><button>8</button></td>
-					<td><button>9</button></td>
-					<td><button class="operator">×</button></td>
-				</tr>
-				<tr>
-					<td><button>4</button></td>
-					<td><button>5</button></td>
-					<td><button>6</button></td>
-					<td><button class="operator">−</button></td>
-				</tr>
-				<tr>
-					<td><button>1</button></td>
-					<td><button>2</button></td>
-					<td><button>3</button></td>
-					<td><button class="operator">+</button></td>
-				</tr>
-				<tr>
-					<td colspan="2"><button style="text-align: left; padding-left: 2rem; width: 220px;">0</button></td>
-					<td><button>.</button></td>
-					<td><button class="operator">=</button></td>
-				</tr>
-			</table>
+
+	<div class="holder">
+		<input type="text" id="output" value="0"/>
+
+		<div class="content">
+			<div class="row">
+					<button class="action">AC</button>
+					<button class="action">DEL</button>
+					<button class="action">%</button>
+					<button class="operator">÷</button>
+			</div>  
+			<div class="row">
+					<button>7</button>
+					<button>8</button>
+					<button>9</button>
+					<button class="operator">×</button>
+			</div>
+			<div class="row">
+					<button>4</button>
+					<button>5</button>
+					<button>6</button>
+					<button class="operator">−</button>
+			</div>
+			<div class="row">
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+					<button class="operator">+</button>
+			</div>
+			<div class="row">
+					<button class="special">0</button>
+					<button>.</button>
+					<button class="operator">=</button>
+			</div>
 		</div>
+
+	</div>
 
 	<footer>
 		<span>Made by
 			<a href="https://github.com/UmangLadha/Calculator" target="_blank" style="color:rgb(26, 127, 205); text-decoration: none; padding-bottom:1rem;"> Umang Ladha</a>
 		</span>
 	</footer>
-	<script src="index.js"></script>
+	<script src="index.js" type="text/Javascript"></script>
 </body>
 </html>

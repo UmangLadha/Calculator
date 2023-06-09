@@ -15,7 +15,7 @@
 }
 
 body {
-	width: 84%;
+	width: 50%;
 	margin: auto;
     background-color: var(--fifth-color);
     text-align: center;
@@ -30,53 +30,60 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.table-part {
-	width: 38%;
-    margin: 1rem auto 2rem;
-    padding: 10px;
-    border-radius: 3rem;
-	border: 2px solid white;
+.holder{
+	border: var(--fourth-color) solid 2px ;
+	border-radius: 40px;
+	width: 60%;
+	margin: auto;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0px 6px 6px rgba(177, 171, 171, 0.066);
+
 }
 
 input {
 	width: 100%;
-    padding: 10px 30px;
-    border: none;
-    background-color: var(--fifth-color);
     outline: 0;
-    text-align:right;
-    color: var(--fourth-color);
+    border: none;
     font-size: 4rem;
-    margin: 20px auto 5px;
+    text-align:right;
+    padding: 10px 30px;
+    margin: 20px auto 0;
+    color: var(--fourth-color);
+	border-radius: 40px;
+    background-color: var(--fifth-color);
 }
 
 .content{
-	width: 100%;
-	margin: auto;
+	/* width: 60%; */
+	margin: 1rem .6rem;
 }
 
-td{
-	width: 25%;
-	text-align: center;
-	padding: 5px;
-	line-height: 1;
-	border-spacing: none;
+.row{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+
 }
 
 button {
-	width: 100%;
-    background-color: var(--primary-color);
-    color: var(--fourth-color);
+	width: 25%;
+	margin:0.3rem;
+    border: none;
     padding: 15px;
     font-size: 40px;
-    font-weight: 200;
     border-radius: 50px;
-    border: none;
+    color: var(--fourth-color);
+    background-color: var(--primary-color);
 }
 
 .operator{
 	background-color: var(--secondary-color);
-	/* width: 78px; */
+}
+
+.special{
+	width: 240px;
+	text-align: left;
+	padding-left: 40px;
+
 }
 
 .action{
@@ -86,4 +93,5 @@ button {
 	
 footer{
 	color:var(--third-color);
+	margin-top: 2rem;
 }
