@@ -1,23 +1,23 @@
 let outputEl = document.getElementById("output");
-let btn = document.querySelectorAll(".button");
-let btnArr = Array.from(btn)
-let Str = ""
-btnArr.forEach(button => {
-	button.addEventListener("click" , (e) => {
+let btn = document.querySelectorAll("button");
+let bArr = Array.from(btn)
+let emt = ""
+bArr.forEach(btn => {
+	btn.addEventListener("click" , (e) => {
 	if(e.target.innerHTML == "="){
-		Str = eval(Str)
-		outputEl.value = Str
+		emt = eval(emt)
+		outputEl.value = emt
 	}
 	else if(e.target.innerHTML == "AC"){
-		Str = " "
-		outputEl.value = Str
+		emt = " ";
+		outputEl.value = emt
 	}
-	else if(e.target.innerHTML == "DEL"){
-		outputEl.value = "del"
+	else if(e.target.innerHTML == "C"){
+		outputEl.value =- 1
 	}
 	else{
-		Str += e.target.innerHTML
-		outputEl.value = Str
+		emt += e.target.innerHTML
+		outputEl.value = emt
 	}
 
 })

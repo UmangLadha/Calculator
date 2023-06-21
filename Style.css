@@ -16,7 +16,7 @@
 
 body {
 	width: 50%;
-	margin: auto;
+	margin: 0 auto;
     background-color: var(--fifth-color);
     text-align: center;
     font-family: 'Inter', sans-serif;
@@ -31,16 +31,15 @@ body {
 }
 
 .holder{
-	border: var(--fourth-color) solid 2px ;
 	border-radius: 40px;
 	width: 60%;
 	margin: auto;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0px 6px 6px rgba(177, 171, 171, 0.066);
-
+	box-shadow: rgba(107, 107, 109, 0.459) 0px 50px 100px -20px, rgba(0, 0, 0, 0.696) 0px 30px 60px -30px, rgba(133, 134, 135, 0.906) 0px -2px 6px 0px inset;
+	/* background-color: var(--fourth-color); */
 }
 
 input {
-	width: 100%;
+	width: 95%;
     outline: 0;
     border: none;
     font-size: 4rem;
@@ -54,7 +53,9 @@ input {
 
 .content{
 	/* width: 60%; */
-	margin: 1rem .6rem;
+	/* background-color: aqua; */
+	margin: 1rem .6rem ;
+	padding: 1rem 0;
 }
 
 .row{
