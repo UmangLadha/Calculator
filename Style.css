@@ -44,7 +44,7 @@ input {
     border: none;
     font-size: 4rem;
     text-align:right;
-    padding: 10px 30px;
+    padding: 5px 20px;
     margin: 20px auto 0;
     color: var(--fourth-color);
 	border-radius: 40px;
@@ -94,3 +94,32 @@ footer{
 	color:var(--third-color);
 	margin-top: 2rem;
 }
+
+@media only screen and ( max-width: 700px){
+
+	body{
+		width: 100%;
+	}
+	
+	.heading{
+		margin: 1.6rem auto;
+		font-size: 4vw;
+	}
+
+	.holder{
+		width: 90%;
+	}
+
+	input{
+		width: 99%;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.special{
+		width: 45vw;
+		padding-left: 8vw;
+	}
+
+ }
+
