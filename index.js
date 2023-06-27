@@ -13,7 +13,8 @@ bArr.forEach(btn => {
 		outputEl.value = emt
 	}
 	else if(e.target.innerHTML == "C"){
-		outputEl.value =- 1
+		emt = emt.slice(0, -1);
+		outputEl.value = emt
 	}
 	else{
 		emt += e.target.innerHTML
