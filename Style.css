@@ -51,6 +51,10 @@ input {
     background-color: var(--fifth-color);
 }
 
+input::placeholder{
+	color: var(--fourth-color);
+}
+
 .content{
 	margin: 1rem .6rem ;
 	padding: 1rem 0;
